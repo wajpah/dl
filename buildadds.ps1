@@ -165,8 +165,8 @@ $ConfigData = @{
         @{
             Nodename = "localhost"
             ThisComputerName = "dc"
-            IPAddress = "192.168.122.111/24"
-            DnsAddress = "192.168.122.111"
+            IPAddress = "192.168.122.10/24"
+            DnsAddress = "192.168.122.10"
             GatewayAddress = "192.168.122.1"
             InterfaceAlias = "Ethernet0"
             DomainName = "test.local"
