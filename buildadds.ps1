@@ -185,5 +185,5 @@ $Cred = Get-Credential -UserName Administrator -Message "Please enter a new pass
 
 BuildDomainController -ConfigurationData $ConfigData
 
-Set-DSCLocalConfigurationManager -Verbose -Path ".\BuildDomainController" 
+Set-DSCLocalConfigurationManager -verbose -Path ".\BuildDomainController" 
 Start-DscConfiguration -Wait -Force -Path .\BuildDomainController -Verbose
