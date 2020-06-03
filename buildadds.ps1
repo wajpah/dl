@@ -180,7 +180,7 @@ $ConfigData = @{
     )
 }
 
-$domainCred = Get-Credential -UserName company\Administrator -Message "Please enter a new password for Domain Administrator."
+$domainCred = Get-Credential -UserName testowa\Administrator -Message "Please enter a new password for Domain Administrator."
 $Cred = Get-Credential -UserName Administrator -Message "Please enter a new password for Local Administrator and other accounts."
 
 BuildDomainController -ConfigurationData $ConfigData
