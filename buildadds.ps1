@@ -169,7 +169,7 @@ $ConfigData = @{
             DnsAddress = "192.168.122.10"
             GatewayAddress = "192.168.122.1"
             InterfaceAlias = "Ethernet0"
-            DomainName = "testowa.local"
+            DomainName="testowa.local"
             DomainDN = "DC=testowa,DC=local"
             DCDatabasePath = "C:\NTDS"
             DCLogPath = "C:\NTDS"
