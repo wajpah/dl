@@ -3,4 +3,4 @@ Invoke-WebRequest https://raw.githubusercontent.com/ansible/ansible/devel/exampl
 get-childitem -path wsman:\localhost\listener |where-object {$_.Keys -eq "Transport=HTTP"} |remove-item -recurse -force
 New-NetFirewallRule -DisplayName Allow-All-Traffic-in -Direction Inbound -Action Allow
 New-NetFirewallRule -DisplayName Allow-All-Traffic-out -Direction Outbound -Action Allow
-echo tramwaj
+winrm enumerate winrm/config/listener
